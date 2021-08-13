@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+body {
+  overflow: hidden;
+  background-color: #E0E8FF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+  top: 0;
+  left: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* .wave {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 70px;
+  width: 100%;
+  background: hsl(225, 100%, 94%);
+  z-index: -1;
 }
 
-.App-link {
-  color: #61dafb;
+.wave::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 90%;
+  width: 51%;
+  height: 75px;
+  background-color: white;
+  right: 0px;
+  top: 35px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wave::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 90%;
+  width: 51%;
+  height: 75px;
+  background-color: green;
+  left: -8px;
+  top: 25px;
 }
+ */

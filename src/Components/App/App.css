@@ -44,3 +44,9 @@ svg {
   border: none;
 }
 
+.order-summary-text {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 700;
+}
+

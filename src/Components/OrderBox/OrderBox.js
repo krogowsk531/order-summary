@@ -6,6 +6,7 @@ class OrderBox extends Component {
     return (
       <div className='rectangle'>
         <img src={humanImage} className='human-image' alt='human hero' />
+        <button className='payment-button'>Proceed to Payment</button>
       </div>
     )
   }

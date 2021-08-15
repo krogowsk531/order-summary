@@ -1,12 +1,7 @@
-import React from 'react';
-import { Component } from 'react';
-import humanImage from './illustration-hero.svg'
+import React, { Component } from 'react'
+import humanImage from '../../images/illustration-hero.svg'
 
-class MattressSize extends Component {
-  // constructor() {
-  //   super()
-  // }
-  
+class OrderBox extends Component {
   render() {
     return (
       <div className='rectangle'>
@@ -14,7 +9,7 @@ class MattressSize extends Component {
       </div>
     )
   }
-  )
 }
 
 export default OrderBox;
+

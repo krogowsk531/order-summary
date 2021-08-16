@@ -50,3 +50,12 @@ svg {
   font-weight: 700;
 }
 
+.about-app {
+  display: inline-block;
+  width: 32%;
+}
+
+.rectangle {
+  text-align: center;
+}
+

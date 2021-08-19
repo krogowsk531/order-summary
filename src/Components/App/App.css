@@ -63,3 +63,24 @@ svg {
   font-weight: 700px;
 }
 
+.grey-box {
+  background-color: hsl(225, 100%, 98%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 43%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+}
+
+.bottom-third {
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 1px;
+}
+
